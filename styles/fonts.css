@@ -1,0 +1,39 @@
+@font-face {
+    font-family: aenikPro;
+    src: url('../fonts/AeonikPro-Medium.woff2');
+}
+@font-face {
+    font-family: cofo;
+    src: url('../fonts/cofoweathervf.woff2');
+}
+@font-face {
+    font-family: jbMono;
+    src: url('../fonts/JetBrainsMono-Medium.woff2');
+}
+.aenikPro{
+    font-family: aenikPro;
+}
+.cofo{
+    font-family: cofo;
+    font-variation-settings: "ital" 0, "wdth" 112.5;
+    font-weight: normal;
+}
+.jbMono{
+    font-family: jbMono;
+}
+.titleText{
+    font-family: cofo;
+    font-size: 28px;
+    font-style: normal;
+    line-height: 34px; /* 121.429% */
+    letter-spacing: 0.84px;
+    text-transform: uppercase;
+}
+h1{
+    font-variation-settings: "ital" 0, "wdth" 112.5;
+    font-weight: normal;
+}
+h2{
+    font-variation-settings: "ital" 0, "wdth" 112.5;
+    font-weight: normal;
+}

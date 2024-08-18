@@ -1,0 +1,151 @@
+.rotating-element {
+    animation: rotate 3s linear infinite; /* Время анимации 3 секунды, линейное изменение, повторять бесконечно */
+}
+#loaderLine{
+    width: 0;
+    transition: width 3s linear;
+}
+#loader{
+    transition: opacity 1s ease;
+}
+#content {
+    transition: all ease 1s;
+    opacity: 0;
+}
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg); /* Начальный угол поворота 0 градусов */
+    }
+    to {
+        transform: rotate(360deg); /* Конечный угол поворота 360 градусов */
+    }
+}
+#firstAnimated{
+    left: 0;
+    top: 34px;
+    transition: all ease 0.5s;
+}
+#secondAnimated{
+    left: 0;
+    top: 34px;
+    transition: all ease 0.5s;
+}
+#thirdAnimated{
+    left: 0;
+    top: 34px;
+    transition: all ease 0.5s;
+}
+#fourthAnimated{
+    left: 0;
+    top: 26px;
+    transition: all ease 0.5s;
+}
+#fifthAnimated{
+    left: 0;
+    top: 26px;
+    transition: all ease 0.5s;
+}
+#greenAnimated{
+    left: -100%;
+    transition: all ease 0.5s;
+}
+.owl-dots{
+    margin-top: 32px;
+}
+
+
+#modalDialog{
+    transition: all ease 0.5s;
+}
+
+
+
+.radio-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.radio-container input[type="radio"] {
+    display: none;
+}
+
+.radio-label {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Стили для круглых кнопок */
+.radio-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    position: relative;
+}
+
+.radio-button::after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Стили для выбранной радиокнопки */
+.radio-container input[type="radio"]:checked + .radio-button::after {
+    transform: translate(-50%, -50%) scale(1);
+}
+#video9 {
+    background-size: cover;
+}
+.playButton{
+    background-color: rgba(252, 252, 252, 0.56);
+}
+.z-60{
+    z-index: 6;
+}
+.z-70{
+    z-index: 7;
+}
+.z-80{
+    z-index: 8;
+}
+.pb-10{
+    padding-bottom: 40px;
+}
+.borderOpacity{
+    border: 1px solid rgba(252, 252, 252, 0.16);
+}
+#menu{
+    transition: all ease 0.3s;
+    opacity: 0;
+}
+#closeStorieButton, #closeAdsButton, #closeVideoButton{
+    background-color: rgba(252, 252, 252, 0.56);
+    padding: 12px;
+}
+
+.sliceButton{
+    background-color: rgba(252, 252, 252, 0.56);
+    padding: 12px;
+}
+#stories{
+    transition: all ease 0.7s;
+    opacity: 0;
+}
+#adsManager{
+    transition: all ease 0.7s;
+    opacity: 0;
+}
+.bg2 {
+    background: #F3C45F;
+}

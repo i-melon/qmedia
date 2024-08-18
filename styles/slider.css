@@ -1,0 +1,64 @@
+.slick-track {
+    /* Ваши пользовательские стили */
+    display: flex;
+    align-items: center/* Пример: фон .slick-track */
+}
+.owl-carousel .owl-item img {
+    height: auto; /* Поддержка соотношения сторон */
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background-color: #10203A; /* Цвет активной точки */
+}
+.team .owl-item.active.center {
+    width: 248px !important; /* Ширина активного центрального элемента */
+}
+.team .owl-stage-outer{
+    height: 394px !important;
+}
+.wall .owl-stage-outer{
+    height: 240px !important;
+}
+
+.team .owl-item.active.center .mx-4.flex.flex-col {
+    width: 248px; /* Ширина внутреннего контейнера */
+}
+.owl-stage{
+    padding-left: 16px;
+}
+
+
+.slick-carousel .slick-slide{
+    width: fit-content !important;
+    margin-left: 48px;
+}
+.slick-carousel2 .slick-slide{
+    width: fit-content !important;
+}
+
+
+.slick-carousel4 {
+    display: flex;
+    flex-direction: column; /* Располагает элементы вертикально */
+}
+.slick-carousel4 .slick-slide {
+    display: block; /* Или display: flex; */
+    height: 34px;
+}
+.slick-carousel4 .slick-track{
+    display: flex;
+    flex-direction: column;
+}
+.owl-dots { /* Размер шрифта для точек */
+    margin-top: 20px; /* Расстояние между точками и каруселью */
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    margin: 0 6px; /* Расстояние между точками */
+    width: 4px !important; /* Ширина точки */
+    height: 4px !important; /* Высота точки */
+}
+
+.owl-dot span {
+    display: none; /* Скрыть текст внутри точек */
+}
