@@ -123,7 +123,7 @@
     padding-bottom: 40px;
 }
 .borderOpacity{
-    border: 1px solid rgba(252, 252, 252, 0.16);
+    border: 1px solid white;
 }
 #menu{
     transition: all ease 0.3s;
@@ -148,4 +148,12 @@
 }
 .bg2 {
     background: #F3C45F;
+}
+li {
+    display: list-item;          /* This has to be "list-item"                                               */
+    list-style-type: square;     /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+    list-style-position: inside;
+}
+#goalItem1, #goalItem2, #goalItem3, #goalItem4, #programm {
+    display: none;
 }
